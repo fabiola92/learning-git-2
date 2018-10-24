@@ -6,11 +6,10 @@
   "directories": {
     "test": "test"
   },
-
   "scripts": {
-	"test": "npm run watch",
-	"watch": "globstar nu-html-checker *.html"
-},
+    "test": "npm run watch",
+    "watch": "globstar nu-html-checker *.html"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fabiola92/nauka-gita2.git"
@@ -25,6 +24,7 @@
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
     "browser-sync": "^2.26.3",
+    "globstar": "^1.0.0",
     "nu-html-checker": "^0.1.0",
     "package.json": "^2.0.1",
     "webpack": "^4.22.0"
